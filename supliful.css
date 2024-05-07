@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header {
+    padding: 30px 10%;
+    background-color: #fff7d9;
+}
+
+header .up {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .up img {
+    width: 12%;
+}
+
+header .up nav {
+    width: 60%;
+    padding-top: 4px;
+    padding-left: 11%;
+}
+
+header .up nav a {
+    color: black;
+    text-decoration: none;
+}
+
+header .up li {
+    display: inline;
+    margin-right: 25px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.buton {
+    padding-top: 4px;
+    width: 20%;
+}
+
+.buton a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    margin-right: 10px;
+    padding: 6px 20px;
+    border: 1px solid black;
+    border-radius: 24px;
+}
+
+.buton #btn {
+    color: white;
+    background-color: black;
+}
+
+header .lower {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+header .lower .text {
+    width: 55%;
+    padding-top: 18%;
+}
+
+.lower .text h1 {
+    font-size: 44px;
+}
+
+.text p {
+    padding: 20px 40% 40px 0;
+    line-height: 25px;
+}
+
+.text a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #2aae73;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 24px;
+    box-shadow: 0 5px 10px 0 #2aae73d6;
+}
+
+.text .p {
+    font-size: 11px;
+    margin-left: 17px;
+}
+
+.lower .img {
+    padding-top: 10%;
+    width: 45%;
+    position: relative;
+}
+
+.img .overHero {
+    width: 80%;
+    border: none;
+    border-radius: 16px;
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    position: absolute;
+    top: 20%;
+    animation: leftRight infinite ease-in-out 0ms;
+}
+
+.img #over1 {
+    top: 49%;
+    right: 0;
+}
+
+.img #over2 {
+    top: 75%;
+}
+
+.overHero .text1 {
+    margin-left: 8px;
+}
+
+.overHero h3 {
+    padding-bottom: 3px;
+}
+
+.overHero .text1 p {
+    font-size: 13px;
+}
+
+.overHero .text1 p span {
+    font-size: 18px;
+}
+
+.brand {
+    padding: 70px 13%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand .text2 {
+    width: 16%;
+    font-size: 18px;
+}
+
+.brand .img {
+    width: 16%;
+}
+
+.brand .img img {
+    margin-left: 25%;
+}
+
+.business {
+    padding: 100px 18%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.business .left {
+    width: 50%;
+}
+
+.business .text3 {
+    width: 40%;
+    padding-top: 20px;
+}
+
+.business .text3 h1 {
+    font-size: 36px;
+    padding-right: 40px;
+}
+
+.business .creator {
+    padding: 20px 0;
+    display: flex;
+}
+
+.creator img {
+    width: 12%;
+    border-radius: 20px;
+    filter: drop-shadow(0 0 8px gray);
+}
+
+.creator #img1 {
+    position: relative;
+    right: 12px;
+}
+
+.creator .circle {
+    padding: 12px 10px;
+    background-color: white;
+    box-shadow: 0 0 8px gray;
+    border-radius: 50%;
+    position: relative;
+    right: 25px;
+    font-size: 12px;
+}
+
+.creator h2 {
+    position: relative;
+    right: 15px;
+    top: 3px;
+}
+
+.text3 p {
+    font-size: 16px;
+    line-height: 26px;
+    padding: 25px 5px 50px 0;
+}
+
+.text3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.text3 hr {
+    width: 28%;
+    margin-top: 15px;
+    background-color: black;
+}
+
+.follower {
+    padding: 60px 18%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.follower .text4 {
+    width: 48%;
+    padding-top: 20px;
+}
+
+.text4 h1 {
+    font-size: 38px;
+    padding-right: 60px;
+    ;
+}
+
+.text4 p {
+    line-height: 25px;
+    font-size: 18px;
+    padding: 30px 50px 50px 0;
+}
+
+.text4 a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #2aae73;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 24px;
+    box-shadow: 0 5px 8px 0 #2aae738c;
+}
+
+.follower .right {
+    width: 50%;
+    background-color: #2aae73;
+    padding: 40px 0;
+    border: none;
+    border-radius: 45% 45% 0 0;
+}
+
+.focusVideo {
+    width: 50%;
+    position: relative;
+}
+
+.focusVideo iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.social {
+    width: 70%;
+    padding: 20px 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.success {
+    padding: 30px 10%;
+}
+
+.success h1 {
+    font-size: 38px;
+}
+
+.success p {
+    padding: 15px 0;
+}
+
+.fitness {
+    padding: 40px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fitness .box {
+    width: 31%;
+}
+
+.fitness .box h1 {
+    font-size: 36px;
+    padding: 30px 0;
+}
+
+.fitness .box p {
+    line-height: 25px;
+    padding: 0 35px 50px 0;
+}
+
+.fitness .box a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 7px 13px;
+    margin-left: 10px;
+}
+
+.fitness .box1 {
+    height: 500px;
+    background-image: url(Fitness\ 1.jpg);
+    background-size: 100%;
+    color: white;
+}
+
+.fitness .box h4 {
+    font-size: 20px;
+    padding: 125% 0 0 30px;
+}
+
+.fitness .bxx p {
+    padding: 0 30px;
+    font-size: 14px;
+}
+
+.fitness .box2 {
+    height: 500px;
+    background-image: url(Fitness.jpg);
+    background-size: 100%;
+    color: white;
+}
+
+.supply {
+    background-color: #e4f2f4;
+    padding: 100px 10%;
+}
+
+.supply h1 {
+    font-size: 36px;
+    display: inline;
+}
+
+.supply a {
+    color: black;
+    margin-left: 28%;
+}
+
+.suppl {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0 0;
+}
+
+.suppl .box {
+    width: 31%;
+}
+
+.suppl .box h3 {
+    padding: 15px 0;
+    font-weight: 600;
+}
+
+.launch {
+    padding: 90px 12%;
+    justify-content: center;
+    align-items: center;
+}
+
+.launch h1 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.launch p {
+    text-align: center;
+    padding: 15px 15% 40px;
+}
+
+.launch a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: #2aae73;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 24px;
+    box-shadow: 0 5px 10px 0 #2aae73d6;
+}
+.question{
+    padding: 50px 10%;
+    background-color: black;
+    color: white;
+}
+.question h1{
+    font-size: 38px;
+}
+.question .p{
+    color: #2aae73;
+    font-size: 15px;
+    padding: 8px 0 15px;
+}
+.question p{
+    font-size: 25px;
+    line-height: 40px;
+}
+
+footer {
+    background-color: #1d1d1f;
+    padding: 70px 10%;
+}
+
+footer .up {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .up .box {
+    width: 18%;
+}
+
+footer .box p {
+    color: gray;
+    padding-bottom: 25px;
+}
+
+footer .box a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 25px;
+    font-size: 14px;
+}
+
+footer .lower {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    color: white;
+    font-size: 13px;
+}
+
+footer .lower .right i {
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 50%;
+    border: none;
+    margin-right: 12px;
+}
+
+.bxl-facebook-circle {
+    margin-left: 35px;
+}
